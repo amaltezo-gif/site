@@ -1,1 +1,145 @@
+/* Configurações Gerais */
+body {
+  background-color: #f4f7f6;
+  color: #1a2530;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
 
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Teko', sans-serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #0d3b66;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+  color: #0d3b66;
+  border-bottom: 3px solid #f4d35e;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #ee964b;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/* Container de Conteúdo */
+main {
+  max-width: 800px;
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+/* Estilo para listas */
+ul {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Imagens */
+img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0d3b66;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ee964b;
+  text-decoration: underline;
+}
+
+/* Botão do Modo Escuro */
+button {
+  background-color: #0d3b66;
+  color: #ffffff;
+  border: 2px solid #f4d35e;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f4d35e;
+  color: #0d3b66;
+  transform: scale(1.05);
+}
+
+/* Tema Escuro */
+body.modo_escuro {
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+}
+
+body.modo_escuro h1,
+body.modo_escuro h2 {
+  color: #f4d35e;
+}
+
+body.modo_escuro ul {
+  background-color: #1b263b;
+}
+
+body.modo_escuro a {
+  color: #ee964b;
+}
+
+body.modo_escuro button {
+  background-color: #f4d35e;
+  color: #0d1b2a;
+  border-color: #ffffff;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
