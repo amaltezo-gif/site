@@ -1,7 +1,7 @@
 /* Configurações Gerais */
 body {
-  background-color: #f4f7f6;
-  color: #1a2530;
+  background-color: #1d3557; /* Azul esporte no fundo */
+  color: #f1faee; /* Texto claro para boa leitura */
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ h1 {
   font-family: 'Teko', sans-serif;
   font-size: 56px;
   text-transform: uppercase;
-  color: #0d3b66;
+  color: #ffb703; /* Amarelo destaque */
   margin: 0;
   letter-spacing: 2px;
 }
@@ -29,16 +29,16 @@ h1 {
 h2 {
   font-family: 'Teko', sans-serif;
   font-size: 36px;
-  color: #0d3b66;
-  border-bottom: 3px solid #f4d35e;
+  color: #ffb703;
+  border-bottom: 3px solid #fb8500; /* Linha Laranja */
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 h3 {
-  color: #ee964b;
-  font-size: 20px;
+  color: #fb8500;
+  font-size: 22px;
   margin-top: 15px;
 }
 
@@ -53,12 +53,12 @@ p {
   font-size: 16px;
 }
 
-/* Estilo para listas */
+/* Estilo para listas e cartões */
 ul {
-  background-color: #ffffff;
+  background-color: #457b9d; /* Azul médio para destacar do fundo */
   padding: 20px 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 li {
@@ -72,68 +72,69 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border: 3px solid #ffb703;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* Links */
 a {
   text-decoration: none;
-  color: #0d3b66;
+  color: #ffb703;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #ee964b;
+  color: #fb8500;
   text-decoration: underline;
 }
 
 /* Botão do Modo Escuro */
 button {
-  background-color: #0d3b66;
-  color: #ffffff;
-  border: 2px solid #f4d35e;
+  background-color: #ffb703;
+  color: #1d3557;
+  border: 2px solid #ffffff;
   border-radius: 25px;
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
   cursor: pointer;
   position: fixed;
   right: 20px;
   top: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: #f4d35e;
-  color: #0d3b66;
+  background-color: #fb8500;
+  color: #ffffff;
   transform: scale(1.05);
 }
 
-/* Tema Escuro */
+/* Tema Escuro (Modo Noturno) */
 body.modo_escuro {
-  background-color: #0d1b2a;
-  color: #e0e1dd;
+  background-color: #121212; /* Grafite bem escuro */
+  color: #e0e0e0;
 }
 
 body.modo_escuro h1,
 body.modo_escuro h2 {
-  color: #f4d35e;
+  color: #fb8500;
 }
 
 body.modo_escuro ul {
-  background-color: #1b263b;
+  background-color: #1e1e1e;
 }
 
 body.modo_escuro a {
-  color: #ee964b;
+  color: #ffb703;
 }
 
 body.modo_escuro button {
-  background-color: #f4d35e;
-  color: #0d1b2a;
-  border-color: #ffffff;
+  background-color: #1e1e1e;
+  color: #ffb703;
+  border-color: #ffb703;
 }
 
 /* Rodapé */
